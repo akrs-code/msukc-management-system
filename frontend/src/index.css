@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@theme {
+  --font-lato: "Lato", sans-serif;
+  --font-cinzel: "Cinzel", serif;
+  --font-montserrat: "Montserrat", san-serif;
+  --font-impact: "Impact", sans-serif;
+}
+
+/* Normal dots */
+.swiper-pagination-bullet {
+  background-color: #bbb; /* default gray */
+  opacity: 1; /* keep full visibility */
+}
+
+/* Active (current) dot */
+.swiper-pagination-bullet-active {
+  background-color: #BB2A1D !important; /* your brand red */
+}
+
+/* Swiper navigation arrows */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #BB2A1D !important; /* brand red */
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for arrows */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  transform: scale(1.2); /* enlarge slightly */
+}
+
+.recharts-wrapper:focus,
+.recharts-bar-rectangle:focus,
+.recharts-surface:focus,
+.recharts-rectangle:focus {
+  outline: none !important;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out forwards;
+}
