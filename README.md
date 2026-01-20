@@ -4,13 +4,13 @@ A **full-stack club management system** developed for the **MSU Karate Club** to
 
 ---
 
-## 🚀 Overview
+## Overview
 
 The MSU Karate Club Management System allows members to easily register and manage their accounts, while administrators gain full control over membership approvals, announcements, and activity monitoring. An intuitive admin dashboard provides visual insights to support informed decision-making and efficient club operations.
 
 ---
 
-## ✨ Features
+##  Features
 
 ### Member Features
 - User registration and secure login
@@ -25,7 +25,7 @@ The MSU Karate Club Management System allows members to easily register and mana
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend:** React.js, Tailwind CSS  
 - **Backend:** Node.js, Express.js  
